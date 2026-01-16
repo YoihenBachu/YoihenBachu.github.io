@@ -91,12 +91,10 @@ email: "thdamyoihenba@gmail.com"
 
 author_blurb_image: "/img/author.png"
 author_blurb:
-  "'Github''s Octocat was designed by Simon Oxley, alongside the white bird Twitter
-  used (before they received a proper logo) as part of a usual routine of cranking
-  out images for iStock. GitHub saw it, and wanted it, presumably under the notion
-  that it can represent how complex code combines to create peculiar things, much
-  like the octopuss... except the CEO of GitHub called it an octocat, and it has
-  been the octocat since then."
+  "'Mahei' in Meiteilon means 'Knowledge' and 'Pukkei' meaning 'Collection'. 
+  Hence, the name 'Mahei Pukkei' conveying the message that I will dropping whatever I have learned in this 'Collection of Knowledge'.
+  I am Yoihenba, a Data Scientist who loves to write about technology, programming, and various other topics. 
+  Welcome to my personal blog where I share my thoughts and experiences. You don't have a choice but to agree with my opinions!"
 
 ##################
 # Social Buttons #
@@ -104,7 +102,7 @@ author_blurb:
 
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/YoihenBachu"
   - icon: "linkedin-in"
     url: "https://www.linkedin.com"
   - icon: "x-twitter"
