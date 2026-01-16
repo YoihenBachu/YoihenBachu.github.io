@@ -80,7 +80,7 @@ events:
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "thdamyoihenba@gmail.com"
 
 ################
 # Author Blurb #
@@ -118,7 +118,7 @@ social:
 pages_list:
   About: "about"
   Blog: "latest-post"
-  Timeline: "timeline"
+  # Timeline: "timeline"
   Contact: "contact"
 
 syntax_theme: everforest
