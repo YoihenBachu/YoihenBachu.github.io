@@ -23,16 +23,12 @@
               </a>
               .
               <a href="{{ page.url }}#disqus_thread">Comments</a>
-            </small>
-          </h6>
-          
-          <p class="text-center">
-            <small>
+              <br />
               {% for tag in page.tags %}
               <a class="tag" href="{{ '/tags/' | absolute_url }}{{ tag }}.html">#{{ tag }}</a>
               {% endfor %}
             </small>
-          </p>
+          </h6>
 
           {% assign words = page.content | number_of_words %}
           {% assign reading_time = words | divided_by: 200 %}
