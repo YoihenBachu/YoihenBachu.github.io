@@ -12,7 +12,7 @@
         <h5 class="post-list pt-3">
           {{ poem.date | date_to_string }}
           {% if poem.dedicatee %}
-          <small>· For {{ poem.dedicatee }} ·</small>
+          <small>· {{ poem.dedicatee }} ·</small>
           {% endif %}
           <br class="d-block d-sm-none" />
           <a href="{{ poem.url | absolute_url }}">{{ poem.title }}</a>
