@@ -18,7 +18,7 @@
 
           {% for dedicatee in dedicatees %}
             <div class="pt-5">
-              <h4>For {{ dedicatee }}</h4>
+              <h4>{{ dedicatee }}</h4>
               {% for poem in poems %}
                 {% if poem.dedicatee == dedicatee %}
                   <h5 class="pt-2">
