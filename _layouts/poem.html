@@ -1,0 +1,52 @@
+<!-- Poem Layout Start -->
+
+<!doctype html>
+<html lang="{{ site.lang }}">
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+
+    <section id="post" class="container content-section">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+
+          <h2 class="text-center">{{ page.title }}</h2>
+
+          <h6 class="text-center">
+            {{ page.date | date_to_string }}
+            {% if page.dedicatee %}
+            <small>· For {{ page.dedicatee }}</small>
+            {% endif %}
+            <small>· <a href="{{ page.url }}#disqus_thread">Comments</a></small>
+          </h6>
+
+          <section class="text-center pt-5">
+            {{ page.content | markdownify }}
+          </section>
+
+          {% include share.html %}
+          {% include comments.html %}
+
+          {% if site.author_blurb %}
+            <hr />
+            <div class="author row">
+              <div class="col-4 col-sm-3 col-md-2">
+                <img class="img-fluid" src="{{ site.author_blurb_image | absolute_url }}" alt="Author" />
+              </div>
+              <div class="col-8 col-sm-9 col-md-10 blurb">
+                <p>{{ site.author_blurb }}</p>
+              </div>
+            </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>
+
+<!-- Poem Layout End -->

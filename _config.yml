@@ -117,6 +117,7 @@ social:
 pages_list:
   About: "about"
   Blog: "latest-post"
+  Poetry: "poetry"
   # Timeline: "timeline"
   Contact: "contact"
 

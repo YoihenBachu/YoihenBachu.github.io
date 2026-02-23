@@ -1,0 +1,28 @@
+<!-- Poetry Section Start -->
+
+<section id="{{ page.section-type }}" class="container content-section text-center">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-12">
+
+      {{ page.content | markdownify }}
+
+      {% assign poems = site.posts | where: "category", "poetry" %}
+
+      {% for poem in poems limit: 3 %}
+        <h5 class="post-list pt-3">
+          {{ poem.date | date_to_string }}
+          {% if poem.dedicatee %}
+          <small>· For {{ poem.dedicatee }} ·</small>
+          {% endif %}
+          <br class="d-block d-sm-none" />
+          <a href="{{ poem.url | absolute_url }}">{{ poem.title }}</a>
+        </h5>
+      {% endfor %}
+
+      <h3 class="pt-5"><a href="{{ '/poetry/' | absolute_url }}">All Poems</a></h3>
+
+    </div>
+  </div>
+</section>
+
+<!-- Poetry Section End -->
