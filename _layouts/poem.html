@@ -16,7 +16,7 @@
           <h6 class="text-center">
             {{ page.date | date_to_string }}
             {% if page.dedicatee %}
-            <small>· For {{ page.dedicatee }}</small>
+            <small>·{{ page.dedicatee }}</small>
             {% endif %}
             <small>· <a href="{{ page.url }}#disqus_thread">Comments</a></small>
           </h6>
