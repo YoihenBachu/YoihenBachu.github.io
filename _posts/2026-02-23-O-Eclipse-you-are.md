@@ -7,7 +7,7 @@ date: 2026-02-23
 ---
 
 Your gaze, those lucid eyes that mesmerise  
-Like moonlight, pristinely clear and calm.  
+Like moonlight, pristinely serene and calm.  
 Your hair, soft riots of ringlets falling in guise  
 Of lunar crescents, silvered into balm.  
 
