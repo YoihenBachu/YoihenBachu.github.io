@@ -3,7 +3,7 @@ layout: poem
 category: poetry
 dedicatee: "Nang"
 title: "The Ship That Never Sailed"
-date: 2026-05-02
+date: 2023-05-02
 ---
 
 She longed for the ship on a stormy night  
