@@ -6,7 +6,7 @@
 >
   <div class="row justify-content-center">
     <div class="col-md-10 col-12">
-      {{ page.content | markdownify }} {% assign post = site.posts.first %}
+      {{ page.content | markdownify }} {% assign post = site.posts | where_exp: "p", "p.category != 'poetry'" | first %}
       <h4 class="pt-5">
         {{ post.date | date_to_string }}
         <small>
